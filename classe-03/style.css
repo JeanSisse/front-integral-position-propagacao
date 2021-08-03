@@ -1,0 +1,124 @@
+/*RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+/*CLASSES*/
+.container{
+	min-height: 100vh;
+}
+
+.header{
+	background: #E8BBA8;
+	padding: 48px;
+
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header, .navbar-nav, .img-container{
+	display: flex;
+	align-items: center;
+}
+
+.header, .navbar-nav{
+	justify-content: space-between;
+}
+
+.logo{
+	margin-right: 810px;
+}
+
+.navbar{
+	width: 380px;
+}
+
+.navbar-nav{
+	list-style: none;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	margin-left: 101px;
+	margin-right: 101px;
+}
+
+.content__title{
+	font-size: 64px;
+	line-height: 80px;
+
+	margin-top: 108px;
+	margin-bottom: 56px;
+	max-width: 714px;
+}
+
+.content__paragrafo{
+	font-size: 36px;
+	line-height: 42px;
+
+	margin-bottom: 135px;
+}
+
+.img-container{
+	justify-content: center;
+	margin-bottom: 90px;
+
+	position: relative;
+}
+
+.bug-1, .bug-2{
+	position: relative;
+}
+
+.bug-1{
+	left: 50px;
+}
+
+.bug-2{
+	bottom: 30px;
+}
+
+.modal{
+	background-color: rgba(0, 0, 0, 0.6);
+	
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 2;
+}
+
+/*UTILITARIOS*/
+.font-merriweather{
+	font-family: 'Merriweather', serif;
+}
+
+.font-roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.font-weight-bold{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.font-weight-light{
+	font-style: normal;
+	font-weight: 300;
+}
